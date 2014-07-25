@@ -1,6 +1,6 @@
 #step 1: download the dataset zip file from website
-#fileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileUrl, destfile="dataset.zip")
+fileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl, destfile="dataset.zip")
 
 #step 2: unzip and read required files into R 
 temp <- unz(description="dataset.zip", filename="UCI HAR Dataset/activity_labels.txt")
